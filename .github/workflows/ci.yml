@@ -23,12 +23,6 @@ jobs:
           extensions: mbstring, dom, curl
           coverage: none
 
-      - name: Debug Repository
-        run: |
-          ls -la
-          echo "PHP Version: $(php -v)"
-          echo "Composer Version: $(composer --version)"
-
       - name: Install Composer dependencies
         run: composer install --prefer-dist --no-progress --no-suggest
 
