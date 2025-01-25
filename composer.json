@@ -1,0 +1,16 @@
+{
+    "name": "yourname/plugin-name",
+    "description": "Your plugin description.",
+    "type": "wordpress-plugin",
+    "require": {
+      "php": ">=7.4"
+    },
+    "autoload": {
+      "psr-4": {
+        "PluginName\\": "src/"
+      }
+    },
+    "scripts": {
+      "test": "phpunit"
+    }
+  }

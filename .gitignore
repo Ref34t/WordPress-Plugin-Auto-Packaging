@@ -1,0 +1,17 @@
+# Ignore Composer dependencies
+/vendor/
+
+# Ignore IDE files
+.idea/
+.vscode/
+
+# Ignore OS files
+.DS_Store
+
+# Ignore local environment files
+.env
+docker/.env
+
+# Ignore build artifacts
+/build/
+/dist/
