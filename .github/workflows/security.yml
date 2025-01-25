@@ -20,6 +20,12 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
+      - name: Debug Repository
+        run: |
+          ls -la
+          echo "PHP files:"
+          find . -name "*.php"
+
       - name: Initialize CodeQL
         uses: github/codeql-action/init@v3
         with:
