@@ -24,5 +24,3 @@ require_once PLUGIN_NAME_PATH . 'includes/class-plugin-name.php';
 
 // Initialize the plugin.
 new Plugin_Name();
-
-// Test CI workflow
